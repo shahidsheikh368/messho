@@ -1,0 +1,90 @@
+/* Page container */
+.profile-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background-color: #FCEBED;
+}
+
+/* Card box */
+.profile-card {
+  background: #fff;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  width: 350px;
+}
+
+/* Heading */
+.profile-card h2 {
+  margin: 0;
+  color: #222;
+  font-size: 24px;
+}
+
+/* Subtitle */
+.subtitle {
+  color: #555;
+  font-size: 15px;
+  margin-top: 6px;
+}
+
+/* Sign Up button */
+.signup-btn {
+  background-color: #9f2089;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 16px;
+  transition: background 0.2s ease;
+  width: 100%;
+}
+
+.signup-btn:hover {
+  background-color: #7e176d;
+}
+
+/* Divider line */
+.divider {
+  margin: 25px 0;
+  height: 1px;
+  background-color: #eee;
+}
+
+/* Options */
+.profile-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.option-btn {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.option-btn:hover {
+  background-color: #f8f8f8;
+  color: #9f2089;
+}
+
+.option-btn.delete {
+  color: black;
+  border-color: #9f2089;
+}
+
+.option-btn.delete:hover {
+  background-color: #fff1f0;
+}

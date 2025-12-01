@@ -1,0 +1,28 @@
+.return-case-lprice {
+  background-color: #FDEEFA;
+  padding: 10px;
+  font-family: Arial, sans-serif;  
+}
+
+.return-case-lprice-camtaint {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid pink;
+  padding: 10px;
+}
+
+.return-case-lprice-camtaint img {
+  width: 20px;
+  height: 20px;
+}
+#return-case-lpric-p{
+  color: wheat;
+}
+.return-case-lprice-camtaint p {
+  margin: 0;
+  font-size: 16px;
+}

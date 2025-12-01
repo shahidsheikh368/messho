@@ -1,0 +1,98 @@
+.investor-page {
+  font-family: 'Arial', sans-serif;
+  color: #222;
+  padding: 2rem;
+}
+
+.investor-hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background-color: #f6f8fa;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+.investor-hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ff5722;
+}
+
+.investor-hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.financial-highlights {
+  margin-bottom: 3rem;
+}
+
+.financial-highlights h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.highlight-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: #ffefeb;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+}
+
+.card h3 {
+  margin-bottom: 1rem;
+  color: #ff5722;
+}
+
+.card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.reports h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.reports ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.reports ul li {
+  margin-bottom: 1rem;
+}
+
+.reports ul li a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.reports ul li a:hover {
+  text-decoration: underline;
+}
+
+.investor-contact {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.investor-contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.investor-contact a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,149 @@
+.supplier-container {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+/* HERO SECTION */
+.supplier-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 80px;
+  background-color: #fff2f8;
+  flex-wrap: wrap;
+}
+
+.supplier-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.supplier-left h1 {
+  font-size: 2.5rem;
+  color: #3d3d3d;
+  line-height: 1.3;
+}
+
+.supplier-left span {
+  color: #9f2089;
+  font-weight: 700;
+}
+
+.supplier-left p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.start-btn {
+  background-color: #9f2089;
+  color: white;
+  border: none;
+  margin-top: 20px;
+  padding: 12px 28px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.start-btn:hover {
+  background-color: #7d176d;
+}
+
+.supplier-right {
+  flex: 1;
+  text-align: right;
+  min-width: 300px;
+}
+
+.supplier-right img {
+  width: 90%;
+  max-width: 400px;
+}
+
+/* STATS SECTION */
+.supplier-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  text-align: center;
+  gap: 20px;
+  padding: 50px 80px;
+  background: white;
+}
+
+.supplier-stats h2 {
+  color: #9f2089;
+  font-size: 1.5rem;
+}
+
+.supplier-stats p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+/* WHY SUPPLIERS LOVE */
+.supplier-love {
+  background: #fff8fb;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.love-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.love-card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.love-card h3 {
+  color: #9f2089;
+  margin-bottom: 10px;
+}
+
+/* REWARDS SECTION */
+.supplier-rewards {
+  background-color: #f6f7ff;
+  text-align: center;
+  padding: 60px 80px;
+}
+
+.reward-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.reward-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* CTA SECTION */
+.supplier-cta {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(to right, #ffdee9, #b5fffc);
+}
+
+.supplier-cta h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.supplier-cta p {
+  color: #555;
+  margin-bottom: 20px;
+}
