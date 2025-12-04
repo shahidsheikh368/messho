@@ -1,50 +1,62 @@
-.footer {
-  background-color: #f3f3f3;
+.m-footer {
+  background: #f8f8f8;
   padding: 40px 0;
+  font-family: "Arial", sans-serif;
   color: #333;
-  font-family: Arial, sans-serif;
+  border-top: 1px solid #ddd;
 }
 
-.footer-container {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  max-width: 1100px;
+.m-footer-top {
+  max-width: 1200px;
   margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.footer-section {
+.m-footer-section {
   width: 250px;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
-.footer-section h3 {
+.m-footer-section h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #d63384; /* Meesho pink */
+}
+
+.m-footer-section h4 {
+  font-size: 18px;
   margin-bottom: 15px;
-  font-size: 20px;
+  color: #444;
 }
 
-.footer-section ul {
+.m-footer-section ul {
   list-style: none;
   padding: 0;
 }
 
-.footer-section ul li {
-  margin: 8px 0;
+.m-footer-section ul li {
+  margin-bottom: 8px;
 }
 
-.footer-section ul li a {
+.m-footer-section ul li a {
   text-decoration: none;
   color: #333;
+  transition: 0.3s;
 }
 
-.footer-section ul li a:hover {
-  color: #007bff;
+.m-footer-section ul li a:hover {
+  color: #d63384;  /* Meesho Hover Pink */
 }
 
-.footer-bottom {
+.m-footer-bottom {
   text-align: center;
-  padding-top: 20px;
-  border-top: 1px solid #ccc;
-  margin-top: 20px;
+  padding: 15px;
+  margin-top: 25px;
+  background: #ededed;
   font-size: 14px;
+  color: #666;
+  border-top: 1px solid #ccc;
 }
