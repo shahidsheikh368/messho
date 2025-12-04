@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Profile.css";
 
+
+//Just Adding Simple comment to test commit
+
 export default function Profile() {
   return (
     <div className="profile-page">
