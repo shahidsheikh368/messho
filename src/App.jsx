@@ -61,6 +61,7 @@ import SendContaxt from "./SendContaxt";
 import Supplier from "./components/Supplier";
 import Investor from "./components/Investor";
 import SignUp from "./components/SingUp";
+import Footer from "./components/Footer";
 
 function PageContent() {
   const location = useLocation();
@@ -86,6 +87,7 @@ function PageContent() {
             <Section />
             <Midsection />
             <Product />
+            <Footer/>
           </>
         } />
         <Route path="/cart" element={<Cart />} />
